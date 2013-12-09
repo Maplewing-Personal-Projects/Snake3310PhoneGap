@@ -1,0 +1,51 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.snake3310" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>貪食蛇3310</name>
+    <description>
+        貪食蛇遊戲。
+    </description>
+    <author email="sinmaplewing@gmail.com" href="http://knightzone.org">
+        新罪楓翼☆灆洢騎士
+    </author>
+    <feature name="http://api.phonegap.com/1.0/device" />
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="default" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="disable-cursor" value="false" />
+    <preference name="android-minSdkVersion" value="7" />
+    <preference name="android-installLocation" value="auto" />
+    <icon src="icon.png" />
+    <icon gap:density="ldpi" gap:platform="android" src="icon.png" />
+    <icon gap:density="mdpi" gap:platform="android" src="icon.png" />
+    <icon gap:density="hdpi" gap:platform="android" src="icon.png" />
+    <icon gap:density="xhdpi" gap:platform="android" src="icon.png" />
+    <icon gap:platform="blackberry" src="icon.png" />
+    <icon gap:platform="blackberry" gap:state="hover" src="icon.png" />
+    <icon gap:platform="ios" height="57" src="icon.png" width="57" />
+    <icon gap:platform="ios" height="72" src="icon.png" width="72" />
+    <icon gap:platform="ios" height="114" src="icon.png" width="114" />
+    <icon gap:platform="ios" height="144" src="icon.png" width="144" />
+    <icon gap:platform="webos" src="icon.png" />
+    <icon gap:platform="winphone" src="icon.png" />
+    <icon gap:platform="winphone" gap:role="background" src="icon.png" />
+    <gap:splash gap:density="ldpi" gap:platform="android" src="icon.png" />
+    <gap:splash gap:density="mdpi" gap:platform="android" src="icon.png" />
+    <gap:splash gap:density="hdpi" gap:platform="android" src="icon.png" />
+    <gap:splash gap:density="xhdpi" gap:platform="android" src="icon.png" />
+    <gap:splash gap:platform="blackberry" src="icon.png" />
+    <gap:splash gap:platform="ios" height="480" src="icon.png" width="320" />
+    <gap:splash gap:platform="ios" height="960" src="icon.png" width="640" />
+    <gap:splash gap:platform="ios" height="1024" src="icon.png" width="768" />
+    <gap:splash gap:platform="ios" height="768" src="icon.png" width="1024" />
+    <gap:splash gap:platform="winphone" src="icon.png" />
+    <access origin="http://127.0.0.1*" />
+</widget>
